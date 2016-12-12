@@ -1,0 +1,312 @@
+.left,.logo,body ul li{
+float:left;
+}
+
+.menu a,a{
+text-decoration:none;
+}
+
+.menu a,.menu li{
+text-align:center;
+}
+
+
+.logo{
+margin-top:15px;
+}
+
+
+#slider{
+height:600px;
+width:1100px;
+position:relative;
+background: grey url('https://www.neptun.ru/assets/galimages/fl3524-1.jpg') no-repeat;
+background-size: 1100px 600px;
+background-position: center;
+}
+
+footer{
+height:64px;
+background-color:#1d2124;
+}
+body,body ul,h1,h2,h3,p{
+margin:0;
+padding:0;
+}
+
+
+body{
+font-family:globerbold;
+text-transform:uppercase;
+}
+
+
+
+h3{
+font-weight:400;
+}
+
+body ul{
+width:inherit;
+height:inherit;
+}
+
+body ul li{
+list-style:none;
+}
+
+.wrapper{
+width:1200px;
+margin-left:auto;
+margin-right:auto;
+}
+
+.right{
+float:right;
+}
+
+.small{
+text-transform:none;
+}
+
+.white{
+color:#fff;
+}
+
+
+
+.logo{
+float:left;
+margin-top:16px;
+}
+
+.descriptor{
+margin-top:38px;
+margin-left:18px;
+}
+
+.socialbuttons{
+margin-top:30px;
+}
+
+.socialbuttons li{
+height:33px;
+width:33px;
+margin-left:14px;
+}
+
+.clearfix{
+clear:both;
+}
+
+.languages{
+margin-top:-30px;
+font-size:15px;
+}
+
+.languages a{
+color:#b4b4b4;
+}
+
+.languages
+.active,.languages a:hover{
+color:#343239;
+}
+
+#spacer{
+margin-left:5px;
+margin-right:5px;
+}
+
+.menu{
+background-color:#fafafa;
+}
+
+.menu ul{
+height:60px;
+}
+
+
+.menu li{
+width:300px;
+margin-right:20px;
+padding-bottom:13px;
+padding-top:20px;
+font-size:22px;
+}
+
+.menu ul li:nth-child(1){
+background-color:#f39323;
+}
+
+.menu ul li:nth-child(2){
+background-color:#02aef0;
+}
+
+.menu ul li:nth-child(3){
+background-color:#90278e;
+}
+
+.menu ul li:nth-child(4){
+background-color:#9cbb43;
+margin-right:0;
+}
+
+.menu a{
+color:#fff;
+display:inline;
+}
+
+ #slider{
+height:593px;
+width:100%;
+position:relative;
+}
+
+#control-left,#control-right{
+position:absolute;
+margin-top:297px;
+}
+
+#control-left{
+margin-left:80px;
+left:0;
+}
+
+#control-right{
+margin-right:80px;
+right:0;
+}
+
+.slide{
+height:inherit;
+width:inherit;
+background-image:url(...eisure.jpg);
+background-repeat:no-repeat;
+background-position:50% 0;
+}
+
+.events{
+  height:600px;
+  margin-top:55px;
+}
+
+
+.events .item{
+width:600px;
+height:230px;
+}
+
+.item_header{
+  font-size:22px;
+  height:60px;
+  color:#fff;
+  display:table;
+  overflow:hidden;
+  width:100%;
+}
+
+
+.events .item:nth-child(1) .item_header{
+background-color:#f39323;
+}
+
+
+.events .item:nth-child(2) .item_header{
+background-color:#02aef0;
+}
+
+
+.events .item:nth-child(3) .item_header{
+background-color:#90278e;
+}
+
+
+.events .item:nth-child(4) .item_header{
+background-color:#9cbb43;
+}
+
+.item_header span{
+padding-left:28px;
+display:table-cell;
+vertical-align:middle;
+}
+
+.item_description{
+font-size:20px;
+padding-top:35px;
+}
+
+.item_link{
+padding-top:20px;
+}
+
+.item_link a{
+color:#2a2a2a;
+font-size:16px;
+text-decoration:underline;
+font-family:globerbold;
+}
+
+footer{
+height:64px;
+background-color:#1d2124;
+}
+
+
+.copyright{
+display:table;
+overflow:hidden;
+color:#98989a;
+font-size:15px;
+height:inherit;
+}
+
+
+.copyright p{
+display:table-cell;
+vertical-align:middle;
+}
+
+@media screen and (min-width:1024px) and (max-width:1200px){
+
+.wrapper{
+width:100%;
+}
+
+
+.menu li{
+width:23.3333%;
+}
+
+
+.events .item{
+width:47.3%;
+}
+}
+
+
+@media only screen and (max-width:1023px){
+.wrapper{
+width:100%;
+}
+
+.menu ul{
+height:50px;
+}
+
+.menu li{
+width:23.3333%;
+font-size:16px;
+margin-right:2%;
+
+}
+
+.events .item{
+width:47.3%;
+}
+
+.copyright{
+text-align:center;
+}
+}
