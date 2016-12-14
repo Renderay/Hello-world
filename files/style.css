@@ -1,3 +1,9 @@
+@font-face {
+  font-family:'globerbold';
+  src:url('glober_bold_free.woff') format("woff");
+}
+
+
 .left,.logo,body ul li{
 float:left;
 }
@@ -37,7 +43,7 @@ padding:0;
 
 
 body{
-font-family:globerbold;
+font-family: 'globerbold', Arial, Helvetica, Sans-serif;
 text-transform:uppercase;
 }
 
